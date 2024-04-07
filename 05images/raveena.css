@@ -1,0 +1,163 @@
+body {
+    font-family: "Ysabeau Infant", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+
+/* Header Stuff Here*/
+header {
+    background-color: #cee4f2;
+    padding: 1rem 2vw;
+}
+header h1 {
+    margin: 0;
+    color: #242621;
+}
+header p {
+    margin: 0;
+    color: #242621;
+    letter-spacing: .5px;
+}
+
+/* nav stuff goes here */
+nav {
+    background-color: #add96c;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+nav a {
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: #242621;
+    font-weight: 700;
+    display: block;
+    padding: 1rem 2rem;
+}
+nav li.active a {
+    background-color: #cee4f2;
+    color: #875D46;
+}
+nav a:hover {
+    color: #fff;
+}
+
+
+/* stuff for the main */
+main {
+    padding: 1rem 2vw;
+}
+main h1 {
+    color: #875D46;
+    font-size: 2rem;
+}
+main h2 {
+    color: #6e8148;
+    margin-bottom: .2rem;
+}
+main p {
+    color: #242621;
+    margin: 0 0 .3rem 0;
+}
+
+main ol {
+    font-style: normal;
+    background-color: #cee4f2;
+    padding: .5rem .5rem .5rem 1.9rem;
+    width: 19rem;
+    border: 0.5px solid #242621;
+    border-radius: 0.5rem;
+}
+
+main dl dt {
+    color: #875D46;
+    font-weight: 700;
+}
+main dl dd {
+    color: #242621;
+    font-size: .9rem;
+    margin-bottom: .25rem;
+}
+
+main ul {
+    list-style-type: square;
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+
+main address {
+    font-style: normal;
+    background-color: #DE9764;
+    padding: .5rem;
+    margin: .6rem 0 0 0;
+    width: 12.5rem;
+    border: 0.5px solid #242621;
+    border-radius: 0.5rem;
+}
+
+main a {
+    color: #242621;
+}
+main a:hover {
+    color: #875D46;
+}
+
+
+figure.wrapped {
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+figure.wrapped img {
+    width: 100%;
+    height: auto;
+}
+figure.wrapped figcaption {
+    text-align: center;
+    font-size: .75rem;
+}
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+div.gallery img {
+    display: block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+div.gallery figure {
+    margin: .5rem 2% 0 0;
+}
+div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #242621;
+    padding: .3rem 0;
+    background-color: #cee4f2;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+/* Footer Stuff Here */
+footer {
+    background-color: #add96c;
+    text-align: center;
+    color: #242621;
+    padding: 1rem 0;
+    font-size: .8rem;
+    clear: both;
+}
+footer a {
+    color: #242621;
+}
